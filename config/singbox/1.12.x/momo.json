@@ -14,7 +14,7 @@
       {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "local"}
     ],
     "final": "public",
-    "strategy": "prefer_ipv6",
+    "strategy": "prefer_ipv4",
     "independent_cache": true,
     "reverse_mapping": true
   },
@@ -137,7 +137,6 @@
       "interface_name": "momo",
       "address": [
         "172.31.0.1/30",
-        "fdfe:dcba:9876::1/126"
       ],
       "auto_route": false,
       "auto_redirect": false
